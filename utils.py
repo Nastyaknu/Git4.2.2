@@ -17,8 +17,7 @@ def simple(num):
             return False
         i += 6
     return True
-<<<<<<< Updated upstream
-=======
+
 
 def number5(num):
     if num <= 0:
@@ -36,4 +35,6 @@ def number2(num):
         num /= 2
     return True
 
->>>>>>> Stashed changes
+
+
+
