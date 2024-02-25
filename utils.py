@@ -17,3 +17,10 @@ def simple(num):
             return False
         i += 6
     return True
+
+def number_5(num):
+    if num <= 0:
+        return False
+    while num % 5 == 0:
+        num /= 5
+    return num == 1
