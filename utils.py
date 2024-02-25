@@ -17,3 +17,23 @@ def simple(num):
             return False
         i += 6
     return True
+<<<<<<< Updated upstream
+=======
+
+def number5(num):
+    if num <= 0:
+        return False
+    while num % 5 == 0:
+        num /= 5
+    return num == 1
+
+def number2(num):
+    if num <= 0:
+        return False
+    while num > 1:
+        if num % 2 != 0:
+            return False
+        num /= 2
+    return True
+
+>>>>>>> Stashed changes
